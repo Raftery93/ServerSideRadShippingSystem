@@ -28,7 +28,7 @@
 		            <td>${ship.passengers}</td>
 		           	<td>${ship.cost}</td>
 		            <td>${ship.metres}</td>
-		            <td>${shipping_company.name}</td>
+		            <td>${ship.shipping_companies.name}</td>
 		        </tr>
 		    </c:forEach>
 		</table>

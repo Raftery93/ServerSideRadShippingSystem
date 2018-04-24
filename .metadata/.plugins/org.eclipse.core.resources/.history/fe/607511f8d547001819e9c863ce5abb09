@@ -10,23 +10,25 @@
 		}
 	</style>
 		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-		<title>List Shipping Companies</title>
+		<title>List Ships</title>
 	</head>
 	<body>
-		<h1>Shipping Companies</h1>
+		<h1>Ships</h1>
 		<table>
 			<tr>
 		        <th>Name</th>
-		        <th>Home Port</th>
-		        <th>Balance</th>
-		        <th>Ships</th>
+		        <th>Passengers</th>
+		        <th>Cost</th>
+		        <th>Length(Meters)</th>
+		        <th>Shipping Company</th>
 		    </tr>
-		    <c:forEach items="${shipping_companies}" var="shipping_companies">
+		    <c:forEach items="${ships}" var="ship">
 		        <tr>
-		            <td>${shipping_companies.name}</td>
-		            <td>${shipping_companies.homePort}</td>
-		           	<td>${shipping_companies.balance}</td>
-		            <td>${shipping_companies.ships}</td>
+		            <td>${ship.name}</td>
+		            <td>${ship.passengers}</td>
+		           	<td>${ship.cost}</td>
+		            <td>${ship.metres}</td>
+		            <td>${ship.shipping_company.name}</td>
 		        </tr>
 		    </c:forEach>
 		</table>

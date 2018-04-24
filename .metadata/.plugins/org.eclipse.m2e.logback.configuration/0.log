@@ -551,3 +551,28 @@
 2018-04-24 16:16:56,130 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
 2018-04-24 16:16:56,130 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-04-24 16:16:56,130 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\ServerSideRad\Project\G00274094\src\test\resources
+2018-04-24 16:25:09,557 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-24 16:25:09,557 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-24 16:25:09,573 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-24 16:25:09,589 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-24 16:25:09,589 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\ServerSideRad\Project\G00274094\src\test\resources
+2018-04-24 16:32:03,036 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-24 16:32:03,042 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-24 16:32:03,148 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-24 16:32:03,208 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-24 16:32:03,208 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\ServerSideRad\Project\G00274094\src\test\resources
+2018-04-24 16:41:22,834 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-24 16:41:22,834 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-24 16:41:22,834 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-24 16:41:22,834 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-24 16:41:22,834 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\ServerSideRad\Project\G00274094\src\test\resources
+2018-04-24 16:41:35,186 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-24 16:41:35,186 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-24 16:41:35,202 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-24 16:41:35,202 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-24 16:41:35,202 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\ServerSideRad\Project\G00274094\src\test\resources
+2018-04-24 16:42:15,686 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-24 16:42:15,686 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-24 16:42:15,686 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-24 16:42:15,701 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-24 16:42:15,701 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\ServerSideRad\Project\G00274094\src\test\resources

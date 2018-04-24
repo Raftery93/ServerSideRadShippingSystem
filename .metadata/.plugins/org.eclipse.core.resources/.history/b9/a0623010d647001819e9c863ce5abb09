@@ -26,7 +26,7 @@
 		            <td>${shipping_companies.name}</td>
 		            <td>${shipping_companies.homePort}</td>
 		           	<td>${shipping_companies.balance}</td>
-		            <td>${shipping_companies.ships}</td>
+		            <td>${shipping_companies.name}</td>
 		        </tr>
 		    </c:forEach>
 		</table>
