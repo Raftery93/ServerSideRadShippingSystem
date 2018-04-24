@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.ships.repositories.ShippingCompanyRepository"/>
+<fullyQualifiedTypeName name="com.ships.model.ShippingCompany"/>
+<fullyQualifiedTypeName name="com.ships.services.ShippingCompanyService"/>
+</qualifiedTypeNameHistroy>
