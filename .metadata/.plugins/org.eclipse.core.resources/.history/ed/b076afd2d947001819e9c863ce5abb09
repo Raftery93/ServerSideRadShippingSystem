@@ -24,8 +24,4 @@ public class ShippingCompanyService {
 		
 	}
 	
-	public ShippingCompany save(ShippingCompany company) {
-		return shippingCompanyRepository.save(company);
-	}
-	
 } // end class ShipService

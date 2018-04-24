@@ -1,12 +1,10 @@
 package com.ships.controllers;
 
 import javax.servlet.http.HttpServletRequest;
-import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -38,24 +36,8 @@ public class ShippingCompanyController {
 	} // end showShips
 	
 	@RequestMapping(value = "/addShippingCompany", method = RequestMethod.GET)
-	public String getShippingCompany(@ModelAttribute("companyAdd") ShippingCompany shippingCompany, HttpServletRequest h) {
+	public String getShippingCompany(@ModelAttribute("companyAdd") ShippingCompany c, HttpServletRequest h) {
 		return "addShippingCompany";
 	}// end getShippingCompany
-	
-	@RequestMapping(value = "/addShippingCompany", method = RequestMethod.POST)
-	public String addShippingCompany(@Valid @ModelAttribute("companyAdd") ShippingCompany shippingCompany, BindingResult result, HttpServletRequest h, Model m) {
-		
-		if (result.hasErrors()) {
-			return "addShippingCompany";
-		} else {
-			shippingCompanyService.save(shippingCompany);
-			
-			Iterable<ShippingCompany> shipping_companies = shippingCompanyService.findAll();
-	
-			m.addAttribute("shipping_companies", shipping_companies);
-	
-			return "showShippingCompanies";
-		}
-	}// end addShippingCompany
 	
 } // end class shipController
