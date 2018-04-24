@@ -9,7 +9,7 @@ import com.ships.model.Ship;
 
 
 @Repository
-public interface ShipRepository extends CrudRepository<Ship, Integer> {
+public interface ShipRepository extends CrudRepository<Ship, Long> {
 //	'findAll' is defined by default, no need to explicitly define it
 	
 }
