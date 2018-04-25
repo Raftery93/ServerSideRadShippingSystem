@@ -4,6 +4,7 @@
 <html>
 <head>
 <style>
+<!--  -->
 table, th, td {
 	border: 1px solid black;
 }
@@ -17,21 +18,24 @@ table, th, td {
 	<h1></h1>
 		<table>
 			<tr>
+			<!-- Table headers -->
 				<th>Order Number</th>
 				<th>Shipping Company Name</th>
 				<th>Ship Name</th>
 				<th>Order Date</th>
 			</tr>
+			<!--Loop which loops through each order to be displayed  -->
 			<c:forEach items="${orders}" var="orders">
 				<tr>
-					<td>${orders.oid}<tv>
-					<td>${orders.shippingCompany.name}<tv>
-					<td>${orders.ship.name}<tv>
-					<td>${orders.date}<tv>
+				<!-- Data to display order details using OrderInfo.java -->
+					<td>${orders.oid}</td>
+					<td>${orders.shippingCompany.name}</td>
+					<td>${orders.ship.name}</td>
+					<td>${orders.date}</td>
 				</tr>
 			</c:forEach>
 		</table>
-		
+		<!-- Link to index page -->
 	<a href="/">Home</a>
 </body>
 </html>

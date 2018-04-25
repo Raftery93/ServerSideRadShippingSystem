@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.ships.repositories.ShippingCompanyRepository"/>
 <fullyQualifiedTypeName name="com.ships.model.ShippingCompany"/>
+<fullyQualifiedTypeName name="javax.validation.constraints.Min"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ModelAttribute"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+<fullyQualifiedTypeName name="javax.validation.Valid"/>
+<fullyQualifiedTypeName name="org.springframework.validation.BindingResult"/>
+<fullyQualifiedTypeName name="com.ships.repositories.OrderRepository"/>
+<fullyQualifiedTypeName name="com.ships.repositories.ShipRepository"/>
+<fullyQualifiedTypeName name="com.ships.repositories.ShippingCompanyRepository"/>
 <fullyQualifiedTypeName name="com.ships.services.ShippingCompanyService"/>
 </qualifiedTypeNameHistroy>

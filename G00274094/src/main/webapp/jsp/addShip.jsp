@@ -8,6 +8,7 @@
 <body>
 	<form:form modelAttribute="shipAdd">
 		<h1>Add Ship</h1>
+		<!-- Table to get data, and display errors (if exists) -->
 		<table>
 			<tr>
 				<td>Ship Name:</td>

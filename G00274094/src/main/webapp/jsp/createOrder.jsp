@@ -15,12 +15,14 @@
 			<tr>
 				<td>Ship Name:</td>
 				<td>
+				<!-- Form to get data -->
 					<form:select path="ship" items="${shipList}"/>
 				</td>
 			</tr>
 			<tr>
 			<td>Shipping Company:</td>
 				<td>
+				<!-- Form to get data -->
 					<form:select path="ShippingCompany" items="${companyList}"/>
 				</td>
 			</tr>
@@ -28,6 +30,7 @@
 				<td><input type="submit" value="Order Ship" /></td>
 			</tr>
 		</table>
+		<!-- Link back to index page -->
 		<a href="/">Home</a>
 	</form:form>
 </body>

@@ -1,13 +1,12 @@
 package com.ships.model;
 
-import java.util.Date;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToOne;
+import javax.validation.constraints.Max;
 
 import org.springframework.stereotype.Component;
 
@@ -15,15 +14,28 @@ import org.springframework.stereotype.Component;
 @Component
 public class OrderInfo {
 	
+	//Denotes primary key
 	@Id
+	//Auto generates Id
 	@GeneratedValue
+	//Contains Getters & Setters
 	private int oid;
+	
+	//Defines a single-valued association to another entity class that has many-to-one multiplicity
 	@ManyToOne
+	//Specifies a column for joining an entity association 
 	@JoinColumn(name="scid")
+	//Contains Getters & Setters
 	private ShippingCompany shippingCompany;
+	
+	//Defines a single-valued association to another entity that has one-to-one multiplicity
 	@OneToOne
+	//Specifies a column for joining an entity association 
 	@JoinColumn(name="sid")
+	//Contains Getters & Setters
 	private Ship ship;
+	
+	//Contains Getters & Setters
 	private String date;
 
 	public int getOid() {

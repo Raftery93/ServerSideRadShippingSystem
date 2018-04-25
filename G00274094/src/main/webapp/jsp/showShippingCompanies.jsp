@@ -4,6 +4,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 	<head>
+	 <!-- CSS Styling -->
 		<style type="text/css">
 			table, th, td {
 		    border: 1px solid black;
@@ -15,14 +16,17 @@
 	<body>
 		<h1>Shipping Companies</h1>
 		<table>
+		 <!-- Table headers -->
 			<tr>
 		        <th>Name</th>
 		        <th>Home Port</th>
 		        <th>Balance</th>
 		        <th>Ships</th>
 		    </tr>
+		     <!-- Loop which loops through each company to be displayed -->
 		    <c:forEach items="${shipping_companies}" var="shipping_companies">
 		        <tr>
+		        <!-- Data to display company details using ShippingCompany.java -->
 		            <td>${shipping_companies.name}</td>
 		            <td>${shipping_companies.homePort}</td>
 		           	<td>${shipping_companies.balance}</td>
@@ -30,6 +34,7 @@
 		        </tr>
 		    </c:forEach>
 		</table>
+		 <!-- Link back to index page -->
 		<a href="/">Home</a>
 	</body>
 
