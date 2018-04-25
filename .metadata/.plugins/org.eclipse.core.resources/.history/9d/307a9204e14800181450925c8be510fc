@@ -83,15 +83,15 @@ public class OrderController {
 	@RequestMapping(value = "/createOrder", method = RequestMethod.POST)
 	public String addShip(@Valid @ModelAttribute("orderAdd") OrderInfo order, BindingResult result, HttpServletRequest h, Model m) {
 		
+		//if (result.hasErrors()) {
 		if(order.getShip() == null || order.getShippingCompany() == null) {
-			return "ErrorOrderSelected";
+			return "addOrder";
 		} else if(order.getShip().getCost().compareTo(order.getShippingCompany().getBalance())>0){
 		
 			return "errorOrderFunds";
 			
 		}else {
 		
-			order.getShippingCompany().setBalance(order.getShippingCompany().getBalance().subtract(order.getShip().getCost()));
 			
 			orderService.saveOrder(order);
 			shipService.saveShip(order.getShip());

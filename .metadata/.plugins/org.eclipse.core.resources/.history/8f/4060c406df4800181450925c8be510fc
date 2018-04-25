@@ -16,7 +16,8 @@ public class SecurityAdapter extends WebSecurityConfigurerAdapter {
 		.antMatchers("/addShip", 
 					 "/addShippingCompany", 
 					 "/addOrder",
-					 "/createOrder")
+					 "/createOrder",
+					 "/")
 		.hasRole("USER")
 		.and()
 		.formLogin();
